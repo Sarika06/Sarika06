@@ -1,0 +1,5 @@
+com/csg/cs/EventLog.class
+com/csg/cs/model/Event.class
+com/csg/cs/repository/EventRepository.class
+com/csg/cs/entity/EventEntity.class
+com/csg/cs/service/EventService.class
