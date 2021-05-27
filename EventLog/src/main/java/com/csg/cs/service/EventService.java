@@ -28,6 +28,12 @@ public class EventService {
 
 	@Autowired
 	private EventRepository eventRepository;
+	
+	/*
+	 * this could be next step for performance improvement
+	 * if the files are too big
+	 * partition and parse it in chunks with parallel processing
+	 * */
 
 	public void logEventData() throws IOException, ParseException {
 		JSONParser jsonParser = new JSONParser();
